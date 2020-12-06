@@ -1,6 +1,6 @@
 # Segment - 1
 ### Responsibility for Segment - 1
-I am resposnsible for Intial cleaning of US_Accidents CSV file for DtaaBase.
+I am responsible for Initial cleaning of US_Accidents CSV file for DataBase.
 In [Cleaning jupyter notebook](https://github.com/AlyseD/Group_Project/blob/abains/Cleaningdata_prov.ipynb) I have divided the file in different tables and kept "ID" column as primary key.[ERD file](https://github.com/AlyseD/Group_Project/blob/abains/US_Accident_Schema.docx)
 I am also responsible for ERD for database and created DDL(Data definition Language) for tables in our Database. [DDL Query](https://github.com/AlyseD/Group_Project/blob/abains/US_Accident_Schema.sql)
 
