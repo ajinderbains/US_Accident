@@ -1,7 +1,5 @@
 
 # Group_Project
-![what-to-do-after-witnessing-a-car-accident-98998](https://images.search.yahoo.com/search/images;_ylt=Awr9NElNpc1fmEgAIE2JzbkF;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDOTYwNjI4NTcEX3IDMgRhY3RuA2NsawRjc3JjcHZpZANsdjlKOURFd0xqSW5IR1BWWDNfZTZBSGVNall3TVFBQUFBQ25pdjZSBGZyA21jYWZlZQRmcjIDc2EtZ3AEZ3ByaWQDQUszeTZDQW5RcE9JRHl2Sm5EVlRNQQRuX3N1Z2cDMTAEb3JpZ2luA2ltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMxBHBxc3RyA2NhciUyMGFjYwRwcXN0cmwDNwRxc3RybAMxNARxdWVyeQNjYXIlMjBhY2NpZGVudAR0X3N0bXADMTYwNzMxMjcyOA--?p=car+accident&fr=mcafee&fr2=sa-gp-images.search&ei=UTF-8&n=60&x=wrt#id=51&iurl=https%3A%2F%2Fs1.cdn.autoevolution.com%2Fimages%2Fnews%2Fwhat-to-do-after-witnessing-a-car-accident-98998_1.jpg&action=click)
-
 
 Introduction:
 
