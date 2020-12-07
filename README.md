@@ -1,6 +1,9 @@
 
 # Group_Project
 
+Segment 1: I created the start of the presentation file. 
+
+
 Introduction:
 
 The main goal of this project is for our group to collaborate and use the valuable skills we have learned. We will be utilizing remote collaboration, 
