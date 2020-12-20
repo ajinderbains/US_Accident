@@ -4,7 +4,7 @@ Severity Varchar);
 
 Create table Accident_Time
 (id varchar  ,
-Severity Varchar,
+aacident_Time Varchar,
 Foreign key(ID) references Accident_Severity(ID)
 );
 
