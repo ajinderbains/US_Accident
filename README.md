@@ -2,7 +2,7 @@
 # Group_Project
 
 Segement 2:
-my responsibilities fro this segment included:
+My responsibilities for this segment included:
 -Updating the main README file. 
 -I created the outline for the google slide presentation and started adding the information to it. 
 -I started the visualization portion in Tableau. I imported the csv files that had been cleaned, into Tableau and started building the dashboard. 
@@ -36,29 +36,35 @@ C. When do most accidents occur and Why?
 
 A. Dataset Information
 
-sources
-accessibility
-scalability
+1. sources
+2. accessibility
+3. scalability
+
 B. Machine Learning
 
-model type
-test
-accuracy
+1. model type
+2. test
+3. accuracy
+
 A. Database
 
-Parsing
-Cleaning B. Transforming
-creating a csv
+1. Parsing
+2. Cleaning 
+
+B. Transforming
+1. creating a csv
+
 C. Postgresql
 
-Queries
-Joins
+1. Queries
+2. Joins
+
 D. Visualization
 
 Tableau Dashboard
 E. Challenges
+1. changes that we made
 
-changes that we made
 Conclusion A. Restate Introduction
 
 B. Summarize findings
