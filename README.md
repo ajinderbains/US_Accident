@@ -51,7 +51,7 @@ Following functions are used to generate queries
 - Count,Max,Min,Avg
 - IN operator
 
-## Analysis from SQL queries:
+## Results from SQL queries:
 - Most of the accidents happen are of Severity Level 2 **2373210** and Severity level 3 is next highest **998913**
 
  ![chart1](https://github.com/AlyseD/Group_Project/blob/abains/Images/Severity_Count.png)     
@@ -90,4 +90,12 @@ Following functions are used to generate queries
 ![chart11](https://github.com/AlyseD/Group_Project/blob/abains/Images/lsev_clear.png)
 
 ![chart12](https://github.com/AlyseD/Group_Project/blob/abains/Images/hsev_clear.png)
+
+## Analysis of SQL files
+
+- Most of the accident case reported are of Low Severity
+
+- Most of accident cases are reported during the Day time
+
+- Most of accident cases occur on clear weather conditions.
 
