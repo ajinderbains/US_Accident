@@ -21,3 +21,15 @@ I am also responsible for ERD for database and created DDL(Data definition Langu
     4. **Accident_Location** : This table has data for Location where accident occur like Lang.,Latt. ,City and county etc.
     5. **Accident_Weather** : This table has data about the weather condition during accident.
     6. **Accident_Traffic** : This table has data about traffic condition at the time of accident occur.
+
+
+
+# Segment - 2
+### Responsibility for Segment - 2
+I am responsible for uploading dataframes in  for DataBase.
+In [uploading jupyter notebook](https://github.com/AlyseD/Group_Project/blob/abains/cleaning_4DB.ipynb) .
+I have also did cleaning to compare the ML models for Severity of accidents based on weather Condition and time of accidents on weather conditionLink for  cleaning file [cleaning_file](https://github.com/AlyseD/Group_Project/blob/abains/cleaning_4ML.ipynb) .
+
+Link for ERDfile is [ERD file](https://github.com/AlyseD/Group_Project/blob/abains/US_Accident_Schema.docx).
+I am also responsible for ERD for database and created DDL(Data definition Language) for tables in our Database. [DDL Query](https://github.com/AlyseD/Group_Project/blob/abains/US_Accident_Schema.sql)
+Also created queries [SQL file](https://github.com/AlyseD/Group_Project/blob/abains/queries_seg2.sql) to find the counts of accidents Severity based on weather conditions,sources ,Day/Night etc. 
