@@ -23,7 +23,9 @@ Project Outline:
 Introduction
 
 A.	Collaborate on project ideas
+
 B.	Select a dataset and programs to build project
+
 C.	When do most accidents occur and Why?
 
 A.	Dataset Information
@@ -54,6 +56,8 @@ E.  Challenges
 
 Conclusion
 A.	Restate Introduction
+
 B.	Summarize findings
+
 C.	Questions
 
