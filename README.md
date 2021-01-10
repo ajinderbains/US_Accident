@@ -1,7 +1,7 @@
 
 # Group_Project
 
-Introduction:
+##Introduction:
 
 The main goal of this project is for our group to collaborate and use the valuable skills we have learned. We will be utilizing remote collaboration, creating a database, cleaning, and extracting the relevant data, using machine learning, and creating a dashboard to display our data. Some of the programs we will be using Postgres SQL, Python, Jupyter Notebook and Tableau during the process. This topic was selected to find patterns in accident occurrence. Using our skills, we can aid in the prediction of an accident, hotspot information, roadway, and weather condition to help avoid fatality accidents.
 
