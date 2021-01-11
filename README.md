@@ -1,7 +1,45 @@
+# Segment - 3
+
+## Responsibility for Third Segment:
+The Original CSV file has records around 3 Million and it is decided by team to shorten the file .Python program [clean_Sample](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Clean_Sample.ipynb) to 500 Thousand records. But it also seem too big so again [Shorter Sample](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Smaller_Sample.ipynb) to 100 thousand records. Further this file is edited  for cleanup in [Clean Edited File](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Clean_Edited_Sample.ipynb).
+The final CSV is [Fianl US Accidents](https://github.com/AlyseD/Group_Project/blob/finalcleaning/df_small_sample.csv)
+
+Following cleanup is done
+- Removed all Null values
+- Deleted Columns which are not required for ML
+- Replaced Severity level 1 and 2 to 0and 3 and 4 to 1
+- Weather conditions are grouped from 137 to fewer
+- Accident time is groued as hour and months
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Group_Project
 
-##Introduction:
+Introduction:
 
 The main goal of this project is for our group to collaborate and use the valuable skills we have learned. We will be utilizing remote collaboration, creating a database, cleaning, and extracting the relevant data, using machine learning, and creating a dashboard to display our data. Some of the programs we will be using Postgres SQL, Python, Jupyter Notebook and Tableau during the process. This topic was selected to find patterns in accident occurrence. Using our skills, we can aid in the prediction of an accident, hotspot information, roadway, and weather condition to help avoid fatality accidents.
 
