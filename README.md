@@ -61,3 +61,13 @@ B.	Summarize findings
 
 C.	Questions
 
+Problems:
+
+During this project we encountered several issues. The largest problem we had to solve was sample size. The amount of
+data we had was so great that we had to sample it down to keep the Kernel in Jupyter notebook from crashing during the machine
+learning portion. We also chose to group severity to make the data easier to read and sort. We had to limit the number of weather conditions
+and remove null values. The data had to be sampled severeral times. We ended up with a random sample of 100,000 accidents to draw from. 
+
+Conclusion: 
+
+With a sample of 100,000 accidents we could discern that the majority if the accidents happened on a clear day. 
