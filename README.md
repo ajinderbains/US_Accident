@@ -2,7 +2,7 @@
 
 ## Responsibility for Third Segment:
 The Original CSV file has records around 3 Million and it is decided by team to shorten the file .Python program [clean_Sample](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Clean_Sample.ipynb) to 500 Thousand records. But it also seem too big so again [Shorter Sample](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Smaller_Sample.ipynb) to 100 thousand records. Further this file is edited  for cleanup in [Clean Edited File](https://github.com/AlyseD/Group_Project/blob/finalcleaning/Clean_Edited_Sample.ipynb).
-The final CSV is [Fianl US Accidents](https://github.com/AlyseD/Group_Project/blob/finalcleaning/df_small_sample.csv)
+The final CSV is [Final US Accidents](https://github.com/AlyseD/Group_Project/blob/finalcleaning/df_small_sample.csv)
 
 Following cleanup is done
 - Removed all Null values
