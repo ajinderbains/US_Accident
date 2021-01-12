@@ -7,7 +7,7 @@ My responsibilities included:
 -With changing the sample size I went back and recreated the dashboard. 
 -I added several new sheets detailing the months with the most accidents and a sheet with the top 5 weather conditions.
 -I will add the machine learning portion as soon as it is completed. 
-Tableau Link: https://public.tableau.com/authoring/GroupProject_16084388204990/Dashboard5#1
+Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/
 
 Segement 2:
 My responsibilities for this segment included:
@@ -105,6 +105,6 @@ During this project we encountered several issues. The largest problem we had to
 
 Conclusion:
 
-With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is?
+With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. Our model accuracy score changes based on the inputs. The original accuracy score was 95% however when we resampled the dataset down to 100,000 the accuracy score based on wether changed to 67.9%. Regrouping the weather and severity yielded an accuracy score of 96%. The accuracy scores shows that the machine learning is performing correctly. The final result is that most accidents occured on a clear day in June. 
 
 
