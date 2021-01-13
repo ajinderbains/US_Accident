@@ -36,7 +36,7 @@ Also created queries [SQL file](https://github.com/AlyseD/Group_Project/blob/aba
 
 Approach for Cleaning and Creating Database is already discussed in "Segment - 1"
 
-## Objective for SQL file:
+## Objective for SQL Analysis:
 Data is organized and  stored in different tables and then these tables are joined and manipulated to find the count of accidents  based on different features.
 I have tried to find the answers  for following questions:
 - What is count of accidents for each Severity type?
