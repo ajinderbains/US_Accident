@@ -71,4 +71,4 @@ and remove null values. The data had to be sampled severeral times. We ended up 
 Conclusion: 
 
 With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured
-the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is?
+the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. THe accuracy score is 96%.
