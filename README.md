@@ -76,6 +76,10 @@ and remove null values. The data had to be sampled severeral times. We ended up 
 
 Conclusion: 
 
+![Best Accuracy](https://user-images.githubusercontent.com/68204195/104792592-b37abe80-5753-11eb-89dc-82c894e3773b.PNG)
+
+
+
 With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured
 the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. 
 
