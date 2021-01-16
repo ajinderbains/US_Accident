@@ -83,6 +83,57 @@ B.	Summarize findings
 
 C.	Questions
 
+Database Cleaning
+
+Approach for cleaning
+First CSV file is uploaded in Dataframe and then check all the columns for null values and unique values.
+"ID" column has non null and unique values .
+"End-Ltd" and "End- Lng" has 70% null values and are not required for ML.
+There are many columns which are repatitative values like for weather condition there are wind_speed,humidity.Precipitation etc. So I kept weather_condition column which consilidates all sorts of weather conditions.Same is for accident time,Source etc.
+nunique(),isnull().sum(),drop() etc functions are used to clean data.
+Approach for Database
+We are using Postgres Database for tables . -"ID" column has non null and unique values so I have kept it as Primary Key and other tables are connected to table as Foreign key "ID".
+There are following tables in DB :
+Accident_Severity : It has 2 columns "ID" as PK and "Severity"
+Accident_Report_Source : This table has dta about source of Accident and " ID" is FK .
+Accident_Time : This table has data about time of accident.
+Accident_Location : This table has data for Location where accident occur like Lang.,Latt. ,City and county etc.
+Accident_Weather : This table has data about the weather condition during accident.
+Accident_Traffic : This table has data about traffic condition at the time of accident occur.
+
+Objective for SQL Analysis:
+Data is organized and stored in different tables and then these tables are joined and manipulated to find the count of accidents based on different features. I have tried to find the answers for following questions:
+
+What is count of accidents for each Severity type?
+What is count of accidents for each accident Reporting Source?
+What is count of accidents based on Day and Night?
+What is count for accidents for high and low Severity for each weather Condition like Rainy,Cloudy,Foggy,Snow,Wind Speed and Visibility
+Following functions are used to generate queries
+
+Joins
+Like
+Comparison operaters
+Count,Max,Min,Avg
+IN operator
+Results from SQL queries:
+Most of the accidents happen are of Severity Level 2 2373210 and Severity level 3 is next highest 998913
+
+Analysis of SQL files
+Most of the accident case reported are of Low Severity
+
+Most of accident cases are reported during the Day time
+
+Most of accident cases occur on clear weather conditions.
+
+
+
+
+
+
+
+
+
+
 Problems:
 
 During this project we encountered several issues. The largest problem we had to solve was sample size. The amount of
