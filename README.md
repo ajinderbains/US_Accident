@@ -68,7 +68,20 @@ B.	Summarize findings
 
 C.	Questions
 
+
+
+
+
+
 Database Cleaning
+
+
+The first CSV file was uploaded in Dataframe and then check all the columns for null values and unique values.
+Remove "End-Ltd" and "End- Lng" has 70% null values and are not required for MLachine Learning. Remove repetitative values like for weather condition  such as wind_speed,humidity.Precipitation etc. Keeping only one weather_condition column which consolidates all sorts of weather conditions. The same approach was taken for accident time and Source.
+
+
+
+Approach for Database
 
 
 The ERD 
@@ -76,16 +89,6 @@ The ERD
 ![CaptureERD](https://user-images.githubusercontent.com/68204195/104792803-9c889c00-5754-11eb-9f65-d9d7fc39e2fb.PNG)
 
 
-
-
-
-Approach for cleaning
-First CSV file is uploaded in Dataframe and then check all the columns for null values and unique values.
-"ID" column has non null and unique values .
-"End-Ltd" and "End- Lng" has 70% null values and are not required for ML.
-There are many columns which are repatitative values like for weather condition there are wind_speed,humidity.Precipitation etc. So I kept weather_condition column which consilidates all sorts of weather conditions.Same is for accident time,Source etc.
-nunique(),isnull().sum(),drop() etc functions are used to clean data.
-Approach for Database
 We are using Postgres Database for tables . -"ID" column has non null and unique values so I have kept it as Primary Key and other tables are connected to table as Foreign key "ID".
 There are following tables in DB :
 Accident_Severity : It has 2 columns "ID" as PK and "Severity"
@@ -95,7 +98,11 @@ Accident_Location : This table has data for Location where accident occur like L
 Accident_Weather : This table has data about the weather condition during accident.
 Accident_Traffic : This table has data about traffic condition at the time of accident occur.
 
+
+
 Objective for SQL Analysis:
+
+
 Data is organized and stored in different tables and then these tables are joined and manipulated to find the count of accidents based on different features. I have tried to find the answers for following questions:
 
 What is count of accidents for each Severity type?
@@ -121,6 +128,8 @@ Most of accident cases occur on clear weather conditions.
 
 
 
+
+Machine Learning
 
 
 
