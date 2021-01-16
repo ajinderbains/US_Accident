@@ -1,4 +1,18 @@
+Segment 4:
+I finished the README and incorporated information from all branches and added pictures
+I completed the dashboard presentaition
 
+
+Segment 3:
+-With changing the sample size I went back and recreated the dashboard. 
+-I added several new sheets detailing the months with the most accidents and a sheet with the top 5 weather conditions.
+-I will add the machine learning portion as soon as it is completed. 
+Tableau Link: https://public.tableau.com/authoring/GroupProject_16084388204990/Dashboard5#1
+Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/
+
+Segement 2:
+My responsibilities for this segment included:
+@@ -105,6 +105,6 @@ During this project we encountered several issues. The largest problem we had to
 # Group_Project
 
 
