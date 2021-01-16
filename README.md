@@ -85,6 +85,15 @@ C.	Questions
 
 Database Cleaning
 
+
+The ERD 
+
+![CaptureERD](https://user-images.githubusercontent.com/68204195/104792803-9c889c00-5754-11eb-9f65-d9d7fc39e2fb.PNG)
+
+
+
+
+
 Approach for cleaning
 First CSV file is uploaded in Dataframe and then check all the columns for null values and unique values.
 "ID" column has non null and unique values .
