@@ -103,13 +103,14 @@ Accident_Traffic : This table has data about traffic condition at the time of ac
 ## Objective for SQL Analysis:
 
 
-Data is organized and stored in different tables and then these tables are joined and manipulated to find the count of accidents based on different features. I have tried to find the answers for following questions:
+Data is organized and stored in different tables and then these tables are joined and manipulated to find the count of accidents based on different features. We have tried to find the answers for following questions:
 
-What is count of accidents for each Severity type?
-What is count of accidents for each accident Reporting Source?
-What is count of accidents based on Day and Night?
-What is count for accidents for high and low Severity for each weather Condition like Rainy,Cloudy,Foggy,Snow,Wind Speed and Visibility
-Following functions are used to generate queries
+What is the count of accidents for each Severity type?
+What is the count of accidents for each accident Reporting Source?
+What is the count of accidents based on Day and Night?
+What is the count for accidents for high and low Severity for each weather Condition?
+
+The following functions are used to generate queries
 
 Joins
 Like
@@ -119,7 +120,8 @@ IN operator
 Results from SQL queries:
 Most of the accidents happen are of Severity Level 2 2373210 and Severity level 3 is next highest 998913
 
-Analysis of SQL files
+### Analysis of SQL files
+
 Most of the accident case reported are of Low Severity
 
 Most of accident cases are reported during the Day time
