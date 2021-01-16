@@ -18,7 +18,6 @@ About the dataset:
 This dataset was chosen because it holds information from February 2016 to June, 2020. The dataset includes information on 3.5 million accidents, from 49 states. Weather types and conditions are also available within the dataset.
 The dataset we are using is from https://www.kaggle.com/sobhanmoosavi/us-accidents. The sources of information in the dataset API broadcast by law enforcement agencies, traffic sensors, traffic cameras and the US and state departments of transportation.
 
-
 Communication:
 
 Our group maintains communication through several channels. We utilized Slack, Zoom meetings and class meetings to strategize, prioritize workloads and problem solve together.
@@ -65,6 +64,14 @@ A.	Restate Introduction
 B.	Summarize findings
 
 C.	Questions
+
+Database:
+
+The ERD 
+
+![CaptureERD](https://user-images.githubusercontent.com/68204195/104792803-9c889c00-5754-11eb-9f65-d9d7fc39e2fb.PNG)
+
+
 
 Problems:
 
