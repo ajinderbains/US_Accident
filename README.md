@@ -1,21 +1,6 @@
 
 # Group_Project
 
-Segment 3:
-My responsibilities included:
--Updating the README file. (I am still waiting on some information from Machine learning to complete it)
--With changing the sample size I went back and recreated the dashboard. 
--I added several new sheets detailing the months with the most accidents and a sheet with the top 5 weather conditions.
--I will add the machine learning portion as soon as it is completed. 
-Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/
-
-Segement 2:
-My responsibilities for this segment included:
--Updating the main README file. 
--I created the outline for the google slide presentation and started adding the information to it. 
--I started the visualization portion in Tableau. I imported the csv files that had been cleaned, into Tableau and started building the dashboard. 
-The link to the slides: https://docs.google.com/presentation/d/1UROQ7Eu48JzOpb4WPU1bzCVwjh2ela61YEslNePdRs0/edit?usp=sharing
-Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/vizhome/GroupProject_16084388204990/AccidentDashboard?publish=yes
 
 
 ![Capture50](https://user-images.githubusercontent.com/68204195/104792383-115ad680-5753-11eb-907f-656fd3d4a974.PNG)
