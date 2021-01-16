@@ -13,6 +13,9 @@ Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/
 Segement 2:
 My responsibilities for this segment included:
 @@ -105,6 +105,6 @@ During this project we encountered several issues. The largest problem we had to
+
+
+
 # Group_Project
 
 
@@ -21,25 +24,25 @@ My responsibilities for this segment included:
 
 
 
-Introduction:
+# Introduction
 
 The main goal of this project is for our group to collaborate and use the valuable skills we have learned. We will be utilizing remote collaboration, creating a database, cleaning, and extracting the relevant data, using machine learning, and creating a dashboard to display our data. Some of the programs we will be using Postgres SQL, Python, Jupyter Notebook and Tableau during the process. This topic was selected to find patterns in accident occurrence. Using our skills, we can aid in the prediction of an accident, hotspot information, roadway, and weather condition to help avoid fatality accidents.
 
-Analysis:
+## Analysis:
 
 When do most accidents occur and why? Analyzing accidents can provide valuable information. With this dataset we will be analyzing and answering this question as well as including information about the weather at the time of the accident, accident severity along with longitude and latitude of the accident location. While analyzing this data we can discern accident frequencies and probabilities of accident occurrence.
 
-About the dataset:
+## About the dataset:
 
 This dataset was chosen because it holds information from February 2016 to June, 2020. The dataset includes information on 3.5 million accidents, from 49 states. Weather types and conditions are also available within the dataset.
 The dataset we are using is from https://www.kaggle.com/sobhanmoosavi/us-accidents. The sources of information in the dataset API broadcast by law enforcement agencies, traffic sensors, traffic cameras and the US and state departments of transportation.
 
 
-Communication:
+## Communication:
 
 Our group maintains communication through several channels. We utilized Slack, Zoom meetings and class meetings to strategize, prioritize workloads and problem solve together.
 
-Project Outline:
+## Project Outline:
 
 Introduction
 
@@ -87,7 +90,7 @@ C.	Questions
 
 
 
-Database Cleaning
+## Database Cleaning
 
 
 The first CSV file was uploaded in Dataframe and then check all the columns for null values and unique values.
@@ -95,10 +98,10 @@ Remove "End-Ltd" and "End- Lng" has 70% null values and are not required for MLa
 
 
 
-Approach for Database
+## Approach for Database
 
 
-The ERD 
+## The ERD 
 
 ![CaptureERD](https://user-images.githubusercontent.com/68204195/104792803-9c889c00-5754-11eb-9f65-d9d7fc39e2fb.PNG)
 
@@ -114,7 +117,7 @@ Accident_Traffic : This table has data about traffic condition at the time of ac
 
 
 
-Objective for SQL Analysis:
+## Objective for SQL Analysis:
 
 
 Data is organized and stored in different tables and then these tables are joined and manipulated to find the count of accidents based on different features. I have tried to find the answers for following questions:
@@ -143,14 +146,14 @@ Most of accident cases occur on clear weather conditions.
 
 
 
-Machine Learning
+## Machine Learning
 
 We decided to use the severity of accidents as our output value (y), and will use the other data columns (as shown in the ERD) as the input values.
 After importing the necessary dependencies the csv file was created. From there we utilized Jupyter notebook and created a pandas dataframe using the values we tentatively plan to use. The null values were dropped and labeled Severity as output and the other columns as X, with the exception of Start_Time, End_Time, City and County. 
 Using the pandas get_dummies method to convert the input values to numerical data. Because the values distribution of y is mostly comprised of levels 2 and 3 (out of 1 - 4 severity levels).Using an oversampling method to balance the data for each of the 4 categories The dat was split we will split and put into a classification model with inputs such as weather condition to predict the output.
 
 
-Problems:
+## Problems:
 
 During this project we encountered several issues. The largest problem we had to solve was sample size. The amount of
 data we had was so great that we had to sample it down to keep the Kernel in Jupyter notebook from crashing during the machine
@@ -158,14 +161,11 @@ learning portion. We also chose to group severity to make the data easier to rea
 and remove null values. The data had to be sampled severeral times. We ended up with a random sample of 100,000 accidents to draw from.
 
 
-Conclusion: 
+## Conclusion: 
 
 ![Best Accuracy](https://user-images.githubusercontent.com/68204195/104792592-b37abe80-5753-11eb-89dc-82c894e3773b.PNG)
 
 
 
 With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured
-the most was on a clear day, during the daytime with low severity. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. 
-
-
-
+the most was on a clear day, during the daytime with low severity. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. To view our interactive Tableau dashboard with our outcome please visit Tableau Link: https://public.tableau.com/profile/siobhan.scott#!/ 
