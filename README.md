@@ -11,7 +11,7 @@ The main goal of this project is for our group to collaborate and use the valuab
 
 Analysis:
 
-When do most accidents occur and why? Analyzing accidents can provide valuable information. With this dataset we will be analyzing and answering this question as well as including information about the weather at the time of the accident, accident severity along with longitude and latitude of the accident location. While analyzing this data we can discern accident frequencies and probabilities of accident occurrence.
+When do most accidents occur? Analyzing accidents can provide valuable information. With this dataset we will be analyzing and answering this question as well as including information about the weather at the time of the accident, accident severity along with longitude and latitude of the accident location. While analyzing this data we can discern accident frequencies and probabilities of accident occurrence.
 
 About the dataset:
 
