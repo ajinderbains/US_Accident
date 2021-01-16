@@ -131,10 +131,9 @@ Most of accident cases occur on clear weather conditions.
 
 Machine Learning
 
-
-
-
-
+We decided to use the severity of accidents as our output value (y), and will use the other data columns (as shown in the ERD) as the input values.
+After importing the necessary dependencies the csv file was created. From there we utilized Jupyter notebook and created a pandas dataframe using the values we tentatively plan to use. The null values were dropped and labeled Severity as output and the other columns as X, with the exception of Start_Time, End_Time, City and County. 
+Using the pandas get_dummies method to convert the input values to numerical data. Because the values distribution of y is mostly comprised of levels 2 and 3 (out of 1 - 4 severity levels).Using an oversampling method to balance the data for each of the 4 categories The dat was split we will split and put into a classification model with inputs such as weather condition to predict the output.
 
 
 Problems:
@@ -152,7 +151,7 @@ Conclusion:
 
 
 With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured
-the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. 
+the most was on a clear day, during the daytime with low severity. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. 
 
 
 
