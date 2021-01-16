@@ -18,6 +18,7 @@ About the dataset:
 This dataset was chosen because it holds information from February 2016 to June, 2020. The dataset includes information on 3.5 million accidents, from 49 states. Weather types and conditions are also available within the dataset.
 The dataset we are using is from https://www.kaggle.com/sobhanmoosavi/us-accidents. The sources of information in the dataset API broadcast by law enforcement agencies, traffic sensors, traffic cameras and the US and state departments of transportation.
 
+
 Communication:
 
 Our group maintains communication through several channels. We utilized Slack, Zoom meetings and class meetings to strategize, prioritize workloads and problem solve together.
@@ -70,9 +71,11 @@ Problems:
 During this project we encountered several issues. The largest problem we had to solve was sample size. The amount of
 data we had was so great that we had to sample it down to keep the Kernel in Jupyter notebook from crashing during the machine
 learning portion. We also chose to group severity to make the data easier to read and sort. We had to limit the number of weather conditions
-and remove null values. The data had to be sampled severeral times. We ended up with a random sample of 100,000 accidents to draw from. 
+and remove null values. The data had to be sampled severeral times. We ended up with a random sample of 100,000 accidents to draw from.
+
 
 Conclusion: 
 
 With a sample of 100,000 accidents we could discern that there were 5 weather conditions that held the most data. The weather condition that occured
-the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. THe accuracy score is 96%.
+the most was on a clear day. The month that had the most accidents occur was June. Our model accuracy score is highest when weather and time are grouped together. The accuracy score is 96%. 
+
