@@ -113,3 +113,9 @@ Following cleanup is done
 - Weather conditions are grouped from 137 to fewer
 - Accident time is groued as hour and months
 
+
+# Segment - 4
+
+## Responsibility for Fourth Segment:
+This week I was resposible for providing screenshot for final project presentation and presenting the database part .
+link for [screenshot files](https://github.com/AlyseD/Group_Project/blob/abains/Databaseslides4Dashboard.docx)
