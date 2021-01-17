@@ -117,5 +117,5 @@ Following cleanup is done
 # Segment - 4
 
 ## Responsibility for Fourth Segment:
-This week I was resposible for providing screenshots for final project presentation and presenting the database part .
+This week I was responsible for providing screenshots for final project presentation and presenting the database part .
 link for [screenshot files](https://github.com/AlyseD/Group_Project/blob/abains/Databaseslides4Dashboard.docx)
